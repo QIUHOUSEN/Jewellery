@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>Test1</servlet-name>
+    <servlet-class>test.Test1</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RegiserAction</servlet-name>
+    <servlet-class>servlet.RegiserAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginAction</servlet-name>
+    <servlet-class>servlet.LoginAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>JieHunServlet</servlet-name>
+    <servlet-class>servlet.JieHunServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CarServlet</servlet-name>
+    <servlet-class>servlet.CarServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>JieZhang</servlet-name>
+    <servlet-class>servlet.JieZhang</servlet-class>
+  </servlet>
+ <!--  <servlet>
+    <servlet-name>DeleteBuy</servlet-name>
+    <servlet-class>net.ring.dao.impl.DeleteBuy</servlet-class>
+  </servlet> -->
+  <servlet>
+    <servlet-name>OrderServlet</servlet-name>
+    <servlet-class>servlet.OrderServlet</servlet-class>
+  </servlet>
+
+<servlet>
+    <servlet-name>BuyNumServlet</servlet-name>
+    <servlet-class>servlet.BuyNumServlet</servlet-class>
+  </servlet>
+ 
+<servlet>
+    <servlet-name>CommentServlet</servlet-name>
+    <servlet-class>servlet.CommentServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>PinLunServlet</servlet-name>
+    <servlet-class>servlet.PinLunServlet</servlet-class>
+  </servlet>
+<servlet>
+    <servlet-name>AdminAction</servlet-name>
+    <servlet-class>servlet.AdminAction</servlet-class>
+  </servlet>
+
+<servlet>
+    <servlet-name>DelServlet</servlet-name>
+    <servlet-class>servlet.DelServlet</servlet-class>
+  </servlet>
+
+<servlet>
+    <servlet-name>DeleteBuy</servlet-name>
+    <servlet-class>servlet.DeleteBuy</servlet-class>
+  </servlet>
+
+<servlet>
+    <servlet-name>RandomNum</servlet-name>
+    <servlet-class>servlet.RandomNum</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DocheckCode</servlet-name>
+    <servlet-class>servlet.DocheckCode</servlet-class>
+  </servlet>
+<servlet>
+    <servlet-name>NextPage</servlet-name>
+    <servlet-class>servlet.NextPage</servlet-class>
+  </servlet>
+
+<servlet>
+    <servlet-name>ShangjiaServlet</servlet-name>
+    <servlet-class>servlet.ShangjiaServlet</servlet-class>
+  </servlet>
+
+<servlet>
+    <servlet-name>XiajiaServlet</servlet-name>
+    <servlet-class>servlet.XiajiaServlet</servlet-class>
+  </servlet>
+
+
+<servlet-mapping>
+    <servlet-name>XiajiaServlet</servlet-name>
+    <url-pattern>/XiajiaServlet</url-pattern>
+  </servlet-mapping>
+<servlet-mapping>
+    <servlet-name>ShangjiaServlet</servlet-name>
+    <url-pattern>/ShangjiaServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>Test1</servlet-name>
+    <url-pattern>/servlet/Test1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NextPage</servlet-name>
+    <url-pattern>/NextPage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegiserAction</servlet-name>
+    <url-pattern>/RegiserAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginAction</servlet-name>
+    <url-pattern>/LoginAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JieHunServlet</servlet-name>
+    <url-pattern>/JieHunServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CarServlet</servlet-name>
+    <url-pattern>/CarServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JieZhang</servlet-name>
+    <url-pattern>/JieZhang</url-pattern>
+  </servlet-mapping>
+ <!--  <servlet-mapping>
+    <servlet-name>DeleteBuy</servlet-name>
+    <url-pattern>/DeleteBuy</url-pattern>
+  </servlet-mapping> -->
+  <servlet-mapping>
+    <servlet-name>OrderServlet</servlet-name>
+    <url-pattern>/OrderServlet</url-pattern>
+  </servlet-mapping>
+ 
+ <servlet-mapping>
+    <servlet-name>BuyNumServlet</servlet-name>
+    <url-pattern>/BuyNumServlet</url-pattern>
+  </servlet-mapping>
+ 
+ <servlet-mapping>
+    <servlet-name>CommentServlet</servlet-name>
+    <url-pattern>/CommentServlet</url-pattern>
+  </servlet-mapping>
+ 
+ <servlet-mapping>
+    <servlet-name>PinLunServlet</servlet-name>
+    <url-pattern>/PinLunServlet</url-pattern>
+  </servlet-mapping>
+ <servlet-mapping>
+    <servlet-name>AdminAction</servlet-name>
+    <url-pattern>/AdminAction</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet-mapping>
+    <servlet-name>DelServlet</servlet-name>
+    <url-pattern>/DelServlet</url-pattern>
+  </servlet-mapping>
+ 
+ <servlet-mapping>
+    <servlet-name>DeleteBuy</servlet-name>
+    <url-pattern>/DeleteBuy</url-pattern>
+  </servlet-mapping>
+ 
+ <servlet-mapping>
+    <servlet-name>RandomNum</servlet-name>
+    <url-pattern>/RandomNum</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DocheckCode</servlet-name>
+    <url-pattern>/DocheckCode</url-pattern>
+  </servlet-mapping>
+ 
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  
+  
+  
+  <filter>
+  	<filter-name>CharactorFilter</filter-name>
+  <filter-class>util.CharactorFilter</filter-class>
+  <init-param>
+   <param-name>encoding</param-name>
+   <param-value>UTF-8</param-value>
+  </init-param>
+ </filter>
+ <filter-mapping>
+  <filter-name>CharactorFilter</filter-name>
+  <url-pattern>/admin/UserList.jsp</url-pattern><!-- 这里使用/*，表示在访问任何页面时都要通过该过滤器 -->
+ </filter-mapping>
+  
+  
+</web-app>

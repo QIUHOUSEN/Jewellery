@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+#Users
+{ 
+  border: 1px 
+  solid #000;
+  margin: 2em; 
+  width: 10em; 
+  padding: 5px; 
+}
+#base { border: 1px solid #000; margin: 2em; width: 10em; padding: 5px; }
+#Menubase { 
+ border:none;
+ color:#36F;
+}
+#BE ul li{
+	border:none;
+	color:#33F;
+	font-size:25px; 
+	background-color:transparent;border:0px;
+}

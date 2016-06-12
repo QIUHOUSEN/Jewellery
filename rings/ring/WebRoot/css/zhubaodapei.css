@@ -1,0 +1,171 @@
+body{
+	margin:0px;
+}
+#headmain{
+position:absolute;
+top:0px;
+width:100%;
+height:120px;
+background-color:#1A1A1A;
+z-index:9999;
+transition:height 1s linear;
+}
+
+#log_reg{
+position:absolute;
+margin-left:1200px;
+height:30px;
+font-size:15px;
+height:20px;
+}
+/*如果设置连接字体的默认a：link没有用 就单独对a标签设置颜色*/
+#log_reg a{
+color:#FFF;
+}
+#web_name{
+position:absolute;
+font-size:45px;
+margin-top:20px;
+margin-left:500px;
+color:#FFF;
+height:50px;
+line-height:50px;
+width:270px;
+}
+
+a:link{
+text-decoration:none;
+}
+a:hover{
+color:#F00;
+}
+#cho_li{
+width:100%;
+height:50px;
+background-color:#1A1A1A;
+margin-top:70px;
+transition:height 1s linear;
+}
+#cho_li:hover{
+height:170px;
+}
+ul{
+width:800px;
+height:30px;
+margin-left:250px;
+}
+ul li{
+float:left;
+list-style:none;
+width:200px;
+height:30px;
+color:#FFF;
+font-family:Verdana, Geneva, sans-serif;
+font-size:20px;
+text-align:center;
+}
+.lidiv div{
+color:#FFF;
+font-family:Verdana, Geneva, sans-serif;
+font-size:20px;
+text-align:center;
+background-color:#1A1A1A;
+}
+.lidiv div a{
+color:#FFF;
+}
+.lidiv{
+width:200px;
+height:0px;
+overflow:hidden;
+transition:height 1s linear;
+}
+ul li:hover{
+border-top:1px solid #999;
+background-color:#000;
+}
+ul li:hover .lidiv{
+height:130px;
+}
+.lidiv div:hover{
+filter: Alpha(Opacity=60);
+opacity:0.6;
+-moz-opacity:0.6;
+}
+
+.title{	
+    text-align: center;
+    margin-top:135px;
+    font-size: 30px;
+    color: #CD0000;
+}
+.etitle{
+	text-align: center;
+	font-size: 20px;
+	font-family:cursive;
+	}
+.title1{
+	text-align: center;
+	font-size: 15px;
+	padding:10px;
+	margin-top:10px;
+}
+.title1 a{
+	color:black;
+}
+a:link{
+	text-decoration: none;
+	
+}
+a:visited{
+	text-decoration:none;
+	color:black;
+	
+}
+a:hover{
+	text-decoration:none;
+	color:#B22222;
+}
+a:active{
+	text-decoration:none;
+	color:gray;
+	
+}
+.style1{
+	text-align: center;
+	font-size: 15px;
+	margin-top:15px;
+}
+.style2{
+	
+	margin:0 auto;
+	width:400px;
+	height:70px;
+	margin-top:30px;
+}
+a:link img{
+        -webkit-filter:grayscale(1);
+        filter:gray;
+        filter:grayscale(1);
+        }
+     a:hover img{
+        -webkit-filter:none;
+           filter:"";
+          filter:"";
+       }
+.style3{
+	text-align: center;
+	margin-top:20px;
+	font-size: 20px;
+	color: maroon;
+}
+.style4{
+	margin-top:60px;
+	text-align: center;
+	font-size: 15px;
+	color:#A3A3A3;
+}
+
+	
+	
+

@@ -1,0 +1,153 @@
+body{
+	margin:0 auto;
+}
+.top{
+	border:1px solid red;
+	height:120px;
+}
+/*.top1{
+	
+	background-color:black;
+	height:5px;
+}*/
+.style1{
+	
+	border:1px solid #796FAC;
+	height:560px;
+	weight:100%;
+	background:url(../images/login.jpg);
+}
+#s1{
+	background: url(images/re1.jpg)  
+}
+.style2{
+	/*border:1px solid black;*/
+	height:150px;
+	weight:100%;
+	text-align: center;
+}
+.style2 span{
+	 display:block;
+	padding:40px 0 ;
+	font-size: 15px;
+	color:#969696;
+}
+.style3{
+  border:1px solid white;
+  border-radius:10px;
+  width:370px;
+  height:410px;
+  margin:80px 170px 70px 760px;
+  background-color:white;
+  /*���ñ���Ϊ��͸����ɫ����ͬ�������֧�ְ汾��ͬ����������д�������Ϊ���ʺϸ��������*/
+  filter:alpha(Opacity=80);
+  -moz-opacity:0.6;
+  opacity: 0.6;
+}
+.style4 {
+	/*border:1px solid red;*/
+	width:300px;
+	height:60px;
+	margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;	
+}
+.style4 input{
+	 width:200px;
+	 height:30px;
+	 position:absolute;
+	 top:165px;
+	 left:850px;
+	 border:1px solid gray;
+	 onfocus:1px solid red; 
+	 onblur:1px solid gray;
+	 border-radius:4px; 
+}
+.style5 {
+	/*border:1px solid red;*/
+	width:300px;
+	height:60px;
+	margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+    	
+}
+
+#span1,#span2,#span2{
+	color:red; 
+	font-size:8pt;
+	margin-top:-8px;
+	margin-left:80px;
+}
+
+.style5 input{
+	 width:200px;
+	 height:30px;
+	 position:absolute;
+	 top:235px;
+	 left:850px;
+	 border:1px solid gray;
+	 onfocus:1px solid red; 
+	 onblur:1px solid gray;
+	 border-radius:4px; 
+}
+.s10{
+	/*border:1px solid black;*/
+	width:160px;
+	height:80px;
+	margin-top:30px;
+	margin-left:10px;
+	float:left;
+	
+}
+.s11{
+	/*border:1px solid green;*/
+	width:60px;
+	height:20px;
+	font-size: 18px;
+	text-align: center;
+	padding:10px;
+	background-color: #EE9572;
+	color:white;
+	font-weight: bold;
+	margin-left:70px;
+	border-radius:5px;
+}
+
+.s111{
+	background-color: #EE9572; 
+	border:none; 
+	outline: none; 
+	font-size: 18px; 
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	margin-top:0px;
+}
+
+.s11:hover{
+	background-color:#CD6839;
+	text-decoration: none;
+}
+#s11{
+	margin-left:20px;
+}
+.s12{
+	
+	/*border:1px solid black;*/
+	width:200px;
+	height:80px;
+	margin-top:30px;
+	
+	float:right;
+}
+
+a:link{
+	text-decoration: none;
+}
+.style6{
+	margin-top:10px;
+	text-align: center;
+	font-size: 15px;
+	color:#A3A3A3;
+	}

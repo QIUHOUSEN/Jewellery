@@ -1,0 +1,223 @@
+@charset "utf-8";
+/* CSS Document */
+
+#main{
+position:relative;
+width:100%;
+margin:0 auto;
+text-align:center;
+}
+#headmain{
+position:absolute;
+margin-top:0px;
+width:100%;
+height:120px;
+background-color:#1A1A1A;
+z-index:9999;
+transition:height 1s linear;
+}
+
+.gouwuche{
+	position:absolute;
+	margin-left:1000px;
+	margin-top:15px;
+	color:white;
+}
+.gouwuche a{
+	color:white;
+} 
+
+#log_reg{
+position:absolute;
+margin-left:1150px;
+height:30px;
+font-size:15px;
+height:20px;
+color:white;
+}
+/*如果设置连接字体的默认a：link没有用 就单独对a标签设置颜色*/
+#log_reg a{
+color:#FFF;
+}
+#web_name{
+position:absolute;
+font-size:45px;
+margin-top:20px;
+margin-left:500px;
+color:#FFF;
+height:50px;
+line-height:50px;
+width:270px;
+}
+
+a:link{
+text-decoration:none;
+}
+a:hover{
+color:#F00;
+}
+#cho_li{
+width:100%;
+height:50px;
+background-color:#1A1A1A;
+margin-top:70px;
+transition:height 1s linear;
+}
+#cho_li:hover{
+height:170px;
+}
+ul{
+width:800px;
+height:30px;
+margin-left:250px;
+}
+ul li{
+float:left;
+list-style:none;
+width:200px;
+height:30px;
+color:#FFF;
+font-family:Verdana, Geneva, sans-serif;
+font-size:20px;
+text-align:center;
+}
+.lidiv div{
+color:#FFF;
+font-family:Verdana, Geneva, sans-serif;
+font-size:20px;
+text-align:center;
+background-color:#1A1A1A;
+}
+.lidiv div a{
+color:#FFF;
+}
+.lidiv{
+width:200px;
+height:0px;
+overflow:hidden;
+transition:height 1s linear;
+}
+ul li:hover{
+border-top:1px solid #999;
+background-color:#000;
+}
+ul li:hover .lidiv{
+height:130px;
+}
+.lidiv div:hover{
+filter: Alpha(Opacity=60);
+opacity:0.6;
+-moz-opacity:0.6;
+}
+
+#lunbo_picture{
+position:absolute;
+margin-top:120px;
+width:100%;
+height:500px;
+}
+#cnt{
+width:100%;
+height:500px;
+overflow:hidden;
+position:relative;
+z-index:-1;
+margin-top:0px;
+}
+#mainTb{
+position:absolute;
+margin-left:535px;
+margin-top:0px;
+}
+#info{
+position:absolute;
+margin-top:650px;
+width:100%;
+height:850px;
+}
+.new_name{
+position:absolute;
+margin-left:585px;
+font-size:33px;
+color:#000;
+margin-top:20px;
+}
+#dian_lun{
+position:absolute;
+width:950px;
+height:180px;
+position:absolute;
+margin-left:200px;
+margin-top:70px;
+}
+.pic:hover{
+transform:scale(1.5,1.5);
+}
+#pic_info{
+position:absolute;
+font-size:20px;
+color:#000;
+margin-left:235px;
+margin-top:250px;
+height:40px;
+}
+#pic_left{
+position:absolute;
+width:450px;
+height:450px;
+margin-left:200px;
+margin-top:300px;
+}
+#pic_right{
+position:absolute;
+width:450px;
+height:450px;
+margin-left:700px;
+margin-top:300px;
+}
+
+#leftjpg{
+margin-left:30px;
+}
+.pic_leftinfo{
+height:70px;
+line-height:70px;
+font-size:20px;
+margin-left:70px;
+}
+#rightjpg1:hover{
+filter: Alpha(Opacity=60);
+opacity:0.6;
+-moz-opacity:0.6;
+}
+#rightjpg2:hover{
+filter: Alpha(Opacity=60);
+opacity:0.6;
+-moz-opacity:0.6;
+}
+#leftjpg:hover{
+filter: Alpha(Opacity=60);
+opacity:0.6;
+-moz-opacity:0.6;
+}
+
+.pic_rightinfo{
+font-size:20px;
+margin-left:70px;
+}
+#footer{
+position:absolute;
+width:100%;
+height:100px;
+margin-left:0px;
+margin-top:750px;
+font-size:15px;
+background-color:#FFC;
+text-align:center;
+}
+p:hover{
+color:#F00;
+}
+span:hover{
+color:#F00;
+}
